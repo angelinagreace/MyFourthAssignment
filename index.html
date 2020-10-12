@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bloom Wedding Services | Home</title>
+</head>
+<body>
+      <div class="main-container">
+
+        <!--Nav-->
+        <nav class="main-nav">
+            <img src="Images/logo.png" alt="Bloom Logo" class="logo">
+
+            <ul class="main-menu">
+                <li><a href="/index.html"> Home </a></li>
+                <li><a href="/contact-us.html"> Contact Us </a></li>
+                <li><a href="/about-us.html"> About Us </a></li>
+                <li><a href="/portfolio.html"> Porfolio </a></li>
+                <li><a href="/blog.html"> Blog </a></li>
+            </ul>
+        </nav>
+
+        <!--Home Showcase-->
+        <header class="showcase">
+            <h1> Creating Unforgettable Memories</h1>
+            <p>
+                One Wedding at a Time
+            </p>
+            <a href="/contact-us.html" class="btn">
+                Contact Us
+            </a>
+        </header>
+
+        <!-- Section: Subtitle -->
+        <section class="subtitle">
+            <p>
+                What We Do
+            </p>
+            <hr class="subtitle-underline">
+        </section>
+
+        <!-- Section: Home cards -->
+        <section class="home-cards">
+        <div>
+          <img src="Images/homecards-planning.jpeg" alt="Wedding planning">
+          <h3>Design and Concept</h3>
+          <p>
+            We help our clients to discover their wedding dreams and design a concept that matches their dreams.
+          </p>
+
+        </div>
+        <div>
+          <img src="Images/homecards-budgeting.jpeg" alt="Wedding budgetin" />
+          <h3>Planning and Budgeting</h3>
+          <p>
+            After finding the right concept, we make step-by-step plan and help them do arrange their budget.
+          </p>
+
+        </div>
+        <div>
+          <img src="Images/homecards-vendor.jpeg" alt="Wedding vendor" />
+          <h3>Vendor Selection</h3>
+          <p>
+            The next process is to select the right vendors that match our clients' concept and budget.
+          </p>
+
+        </div>
+        <div>
+          <img src="Images/homecards-organizer.jpeg" alt="Wedding organizer" />
+          <h3>Event Organizing</h3>
+          <p>
+            Our clients can enjoy their wedding day with their guests as we take care of the event organizing.
+          </p>
+
+        </div>
+        </section>
+
+        <!--Showcase2-->
+        <section class="showcase2">
+          <h1></h1>
+          <p>
+              If You Can Dream It,<br>
+              We Can Make It Happen
+          </p>
+
+          <button id="myBtn">Learn More</button>
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+          
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <table class="modaltable">
+                <thead>
+                    <tr>
+                        <th class="col1" id="col1heading">Location</th>
+                        <th class="col2">Starting From</th>
+                        <th class="col3">Complete Package</th>
+                    </tr>
+                </thead> 
+                <tbody>
+                    <tr>
+                        <td class="col1">Jakarta</td>
+                        <td class="col2">20 mio</td>
+                        <td class="col3">50 mio</td>
+                    </tr>
+                    <tr>
+                        <td class="col1">Bandung</td>
+                        <td class="col2">20 mio</td>
+                        <td class="col3">60 mio</td>
+                    </tr>
+                    <tr>
+                        <td class="col1">Bali</td>
+                        <td class="col2">30 mio</td>
+                        <td class="col3">70 mio</td>
+                    </tr>
+                    <tr>
+                      <td class="col1">Sumba</td>
+                      <td class="col2">30 mio</td>
+                      <td class="col3">70 mio</td>
+                  </tr>
+                  <tr>
+                    <td class="col1">Singapore</td>
+                    <td class="col2">40 mio</td>
+                    <td class="col3">70 mio</td>
+                </tr>
+                <tr>
+                  <td class="col1">Italy</td>
+                  <td class="col2">50 mio</td>
+                  <td class="col3">100 mio</td>
+              </tr>
+
+
+                </tbody>
+            </table>
+            </div>
+          
+          </div>
+        </section>
+      
+        <!--Section: Quotes-->
+        <section class="quote-container">
+            <div class="mySlides">
+            <q>Bloom helped us to select our vendors and everyone did an amazing job</q>
+            <p class="author">- Brian and Kelly</p>
+            </div>
+        
+            <div class="mySlides">
+            <q>We are very satisfied with their service</q>
+            <p class="author">- Ernest and Amy</p>
+            </div>
+        
+            <div class="mySlides">
+            <q>Their team is really friendly</q>
+            <p class="author">- Thomas and Aries</p>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        
+            <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+      </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="footer-inner">
+            <div>&copy; Bloom Wedding services 2020</div>
+            <ul>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Trademarks</a></li>
+              <li><a href="#">Advertise with Us</a></li>
+            </ul>
+          </div>
+        </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
