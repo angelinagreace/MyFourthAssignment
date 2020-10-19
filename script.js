@@ -62,8 +62,8 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-//Modal
 
+//Modal
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
